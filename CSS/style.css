@@ -94,3 +94,49 @@ header section .left{
 width: 60%;
 padding-right: 50px;
 }
+/*Host Section*/
+
+.host-sec{
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    flex-direction: column;
+    margin: 100px auto;
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);;
+}
+.host-sec .host-title{
+text-align: center;
+padding-top: 100px;
+
+}
+.host-list{
+    display: flex;
+    padding: 100px 0px;
+   
+}
+.host-list .item{
+    margin: 0 10px;
+    padding: 40px 15px 20px;
+    border:  1px solid lightgray;
+    border-radius: 10px;
+    text-align: justify;
+    color:#5e5e5e;
+    position: relative;
+}
+.item .host-item-title{
+    position: absolute;
+    width: 150px;
+    background-color: #217bbb;
+    color: white;
+    top: -15px;
+    text-align: center;
+    margin: auto;
+    right: 0;
+    left: 0;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.item p{
+
+}
