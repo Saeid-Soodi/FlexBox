@@ -8,6 +8,7 @@ body{
     font-family: 'B Yekan',tahoma , Arial;
 }
 /* Navigation Bar!*/
+
 header nav{
     margin: 0 auto;
     width: 1200px;
@@ -138,6 +139,38 @@ padding-top: 100px;
     padding: 5px 10px;
     font-size: 14px;
 }
-.item p{
-
+/*Features*/
+.feature{
+margin: 0px auto;
+width: 1200px;
+height: 100px;
+padding: 20px 0;
+display: flex;
+flex-direction: column;
+}
+.feature-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+  
+}
+.feature-sec .right{
+width: 50%;
+}
+.feature-sec .right .f-title{
+color: #288ed9;
+margin :50px 0 10px;
+}
+.feature-sec .right .f-desc{
+color: #b3b3b3;
+text-align: justify;
+line-height: 27px;
+}
+.feature-sec .left{
+width: 50%;
+padding: 10px 20px;
+}
+.feature-sec:nth-child(even){
+    flex-direction: row-reverse;
 }
